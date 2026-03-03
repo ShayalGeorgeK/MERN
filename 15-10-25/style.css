@@ -1,0 +1,53 @@
+p{
+    color: blue;
+    background-color: burlywood;
+}
+#one{
+    font-style: italic;
+}
+.two{
+    font-family: 'Courier New', Courier, monospace;
+}
+*{
+    background-color: blueviolet;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-image: url(download.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 500px 300px;
+}
+.three{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    color: aliceblue;
+    border: 3px dotted violet;
+    margin: 30px;
+    padding: 30px; 
+    outline-width: 5px;
+    outline-color: red;
+    outline-style: dashed;
+    outline-offset: 5px;
+    /* position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0; */
+
+}
+@media(max-width:400px){
+    .three{
+        background-color : blue;
+    }
+    span{
+        display: none;
+    }
+}
+@media(min-width:402px){
+    .three{
+        background-color: grey;
+    }
+}

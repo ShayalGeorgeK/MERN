@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    /* flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap; */
+}
+.logo{
+    flex-basis: 700px;
+}
+.home{
+    flex-basis: 200px;
+}
+.contact{
+    flex-basis: 200px;
+}
+.about{
+    flex-basis: 200px;
+}

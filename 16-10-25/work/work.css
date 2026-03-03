@@ -1,0 +1,57 @@
+.container{
+    display: flex;
+    /* flex-direction: column; */
+    /* gap: 10px; */
+    /* flex-wrap: wrap; */
+    color: white;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.logo{
+    flex-basis: 700px;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+.home{
+    flex-basis: 200px;
+}
+.about{
+    flex-basis: 200px;
+}
+.service{
+    flex-basis: 200px;
+}
+.project{
+    flex-basis: 200px;
+}
+.contact{
+    flex-basis: 200px;
+}
+body{
+    background-image: url(25336.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1,p{
+    color: white;
+}
+p{
+    font-size: x-large;
+}
+.one{
+    padding-top: 150px;
+    padding-left: 30px;
+    width: 350px;
+}
+.two{
+    padding-left: 30px;
+}
+button{
+  width: 100px;
+  height: 50px;
+  border-radius: 25px; /* makes it a perfect circle */
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  
+}

@@ -1,0 +1,43 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 45% 10% 45%;
+    height: 100vh;  
+    padding-left: 0px;
+    background-size: contain;
+    gap: 20px;
+}
+.one{
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-color: rgb(228, 228, 101);
+}
+.two{
+    grid-column-start: 2;
+    grid-column-end: 5; 
+    background-image: url(co2.jpeg);    
+    background-size: cover; 
+    color: white;
+}
+.two .h{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10%;
+}
+.three{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    text-align: center;
+    padding-top: 5%;
+}
+.four img,.five img,.six img{
+    height: 75%;
+    width: 100%;
+}
+.four{
+    align-items: center;
+}
+.five{
+
+}

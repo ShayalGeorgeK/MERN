@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: url('bg.jpeg') no-repeat center center/cover;
+  height: 100vh;
+  color: white;
+}
+
+/* Navbar */
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center;
+  padding: 20px 60px;
+  background: rgba(0, 0, 0, 0.6); */
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+}
+
+/* .logo span {
+  color: orange;
+} */
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+}
+
+.search-box input {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+}
+
+.search-box button {
+  background: orange;
+  border: none;
+  color: white;
+  margin-left: 5px;
+  padding: 6px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* Main content */
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px;
+}
+
+.text-box {
+  width: 50%;
+}
+
+.text-box h1 {
+  font-size: 50px;
+  line-height: 1.2;
+}
+
+/* .text-box span {
+  color: orange;
+} */
+
+.text-box p {
+  margin: 20px 0;
+  max-width: 500px;
+  line-height: 1.5;
+}
+
+.join-btn {
+  background: orange;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Login box */
+/* .login-box {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  border-radius: 15px;
+  width: 300px;
+  text-align: center;
+} */
+
+.login-box h2 {
+  margin-bottom: 15px;
+  /* color: orange; */
+}
+
+.login-box input {
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  background: orange;
+  border: none;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login-box p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.login-box a {
+  color: orange;
+  text-decoration: none;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: white;
+  margin: 0 5px;
+  font-size: 18px;
+  text-decoration: none;
+}

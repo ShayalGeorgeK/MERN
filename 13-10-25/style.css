@@ -1,0 +1,22 @@
+p{
+    color: blue;
+    background-color: burlywood;
+}
+#one{
+    font-style: italic;
+}
+.two{
+    font-family: 'Courier New', Courier, monospace;
+}
+*{
+    background-color: blueviolet;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-image: url(download.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 500px 300px;
+}
