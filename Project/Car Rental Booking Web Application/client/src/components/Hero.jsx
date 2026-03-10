@@ -27,13 +27,12 @@ const Hero = () => {
             <div className='flex flex-col items-start gap-2'>
               <label htmlFor='return-date'>Return Date</label>
               <input type="date" id='return-date' className='text-sm text-gray-500' required/>
-            </div>
-            <button>
+            </div>            
+          </div>
+          <button className='flex items-center justify-center gap-1 px-9 py-3 max-sm:mt-4 bg-primary hover:bg-primary-dull text-white rounded-full cursor-pointer'>
               <img src={assets.search_icon} alt="search" className='brightness-300' />
               Search
-            </button>
-          </div>
-
+          </button>
         </form> 
 
         <img src={assets.main_car} alt="car" className='max-h-74'/>
